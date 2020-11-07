@@ -19,11 +19,11 @@
       <form>
         <p><b>Bem vindo ao Banco Digital PERK! </b>
           <br>
-          Insira o codigo que deseja criptografar, ele será ultilizado em todos os seus atendimentos!</p>
+          Insira o código que deseja criptografar, ele será ultilizado em todos os seus atendimentos!</p>
 
-        <b>senha:</b>
+        <b>código:</b>
         <!--componente para escrever o texto-->
-        <input id="texto" type="text" name="text" placeholder="É permitido apenas letras!" required/>
+        <input id="texto" type="text" name="text" pattern="[A-Za-z]+$" placeholder="É permitido apenas letras!" required />
         <br>
         <!--componente que recebe texto-->
         <b>offset:</b>

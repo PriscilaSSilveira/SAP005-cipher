@@ -8,7 +8,7 @@ function clickEncode(event) {
 
 
     document.getElementById("texto").value = retorna;
-    console.log(retorna)
+    
 }
 document.getElementById("myBtn").addEventListener("click", clickEncode)
 
