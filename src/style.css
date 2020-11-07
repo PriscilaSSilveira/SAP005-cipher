@@ -1,0 +1,157 @@
+body {
+    background-image: url("this.gif");
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 120px;
+}
+
+#root {
+    background: white;
+    border-radius: 10px;
+    border: 5px solid #000080;
+    padding: 15px;
+    width: 430px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+    color: #010113;
+    margin-top: 50px;
+    
+}
+
+#frase {
+    background: white;
+    border-radius: 5px;
+    padding: -10;
+    width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#senha {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#senha:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#texto {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#texto:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#deslocamento {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#deslocamento:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#offset {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#offset:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#myBtn {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#myBtn:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#dBtn {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#dBtn:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+#reset {
+    background: #001b4e;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fcf1f1;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+
+#reset:hover {
+    background: rgb(122, 199, 230);
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+

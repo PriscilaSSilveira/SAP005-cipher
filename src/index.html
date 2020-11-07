@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-    <div id="root">
-      <h1>Bem vindo ao banco digial PERK</h1>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="imagem/png" href="money-bag (1).png" />
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="frase">
+      <h1>Digital PERK</h1>
     </div>
-    </header>
-    <section>
-    </section>
-    <footer>
-      <p> &copy; Perk
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+  </header>
+  <section>
+    <div id="root">
+      <form>
+        <p><b>Bem vindo ao banco digital PERK! 
+          <br>
+          insira a senha que deseja criptografar para entrar na sua conta!</b></p>
+
+        senha:
+        <!--componente para escrever o texto-->
+        <input id="texto" type="text" name="text" placeholder="É permitido apenas letras!" required/>
+        <br>
+        <!--componente que recebe texto-->
+        offset:
+        <input id="deslocamento" type="number"  placeholder="Digite o deslocamento!" required/>
+        <!--botao-->
+        <br>
+        <button id="myBtn"><b>Gerar codeperk</b></button>
+
+        <button id="dBtn"><b>Descriptografar codeperk</b></button>
+        <button id="reset" type="Reset"><b>Limpar tudo</b></button>
+
+      </form>
+
+
+    </div>
+  </section>
+  <footer>
+    <p> &copy; Perk</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
