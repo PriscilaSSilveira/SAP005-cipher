@@ -6,8 +6,7 @@
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
 * [4. Considerações gerais](#4-considerações-gerais)
-* [5. Interface do Usuário](#5-https://priscilassilveira.github.io/SAP005-cipher/src/index.html
-)
+* [5. Interface do Usuário](#5-https://priscilassilveira.github.io/SAP005-cipher/src/index.html)
 * [6. Considerações técnicas](#7-considerações-técnicas)
 * [7. Checklist](#9-checklist)
 
@@ -39,15 +38,17 @@ Atualmente todas as cifras de substituição alfabética simples, são decifrada
 com facilidade e não oferecem muita segurança na comunição, mas a cifra de César
 muitas vezes pode fazer parte de um sistema mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
+***
 
 ## 2. Resumo do projeto
 
-Muitas empresas fazem a verificação de dados pessoais por telefone, com a nova _Lei Geral de Proteção de Dados_, precisamos de uma nova maneira de autenticar os usuários. Pensando nisso, o **Digital Perk** desenvolveu o **Codeperk**, código que funciona como uma criptografia para atendimento ao cliente. O usuário insere a informação e ela será criptografada de acordo com a chave de deslocamento _(offset)_, recebendo em seguida o **Codeperk** , adquirindo mais segurança em seus atendimentos,
+ #### Muitas empresas fazem a verificação de dados pessoais por telefone, com a nova _Lei Geral de Proteção de Dados_, precisamos de uma nova maneira de autenticar os usuários. Pensando nisso, o **Digital Perk** desenvolveu o **Codeperk**, código que funciona como uma criptografia para atendimento ao cliente. O usuário insere a informação e ela será criptografada de acordo com a chave de deslocamento _(offset)_, recebendo em seguida o **Codeperk** , adquirindo mais segurança em seus atendimentos,
 sem precisar informar seus dados pessoais.
+***
 
 ## 3. Objetivos de aprendizagem
 
-Neste projeto eu construi uma aplicação WEB que interage (_webApp_) que interage com o usuário final através do navegador utilizando HTML, CSS e
+Neste projeto eu construi uma aplicação WEB (_webApp_) que interage com o usuário final através do navegador utilizando HTML, CSS e
 JavaScript como ferramentas.
 
 ### HTML e CSS
@@ -85,11 +86,11 @@ JavaScript como ferramentas.
 
 * [✔️] Uso de comandos de git (add | commit | pull | status | push)
 * [✔️] Gerenciamento de repositorios de GitHub (clone | fork | gh-pages)
-
+***
 ## 4. Considerações gerais
 
 * Este projeto foi desenvolvido individualmente.
-
+***
 ## 5. Interface do Usuário
  Acesse a interface através do https://priscilassilveira.github.io/SAP005-cipher/src/index.html
 
@@ -112,7 +113,7 @@ A interface permiti ao usuário:
 * Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
 
-
+***
 ## 6. Considerações técnicas
 
 A lógica do projeto foi implementada inteiramente em JavaScript. Nesse
